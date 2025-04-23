@@ -1,5 +1,5 @@
 import { HttpException, HttpStatus, Injectable } from "@nestjs/common";
-import { Prisma } from "generated/prisma";
+import { Prisma } from "@prisma/client";
 import { PrismaService } from "src/prisma.service";
 import { ProductsService } from "./products.service";
 import { ProductOrder } from "src/interfaces/orders.interface";

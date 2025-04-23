@@ -1,4 +1,4 @@
-import { Prisma } from "generated/prisma";
+import { Prisma } from "@prisma/client";
 import { OrdersController } from "src/controllers/orders.controller";
 import { CreateOrderDto } from "src/dto/orders/create.dto";
 import { PrismaService } from "src/prisma.service";

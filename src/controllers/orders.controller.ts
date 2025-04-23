@@ -1,6 +1,6 @@
 import { Body, Controller, HttpCode, HttpStatus, Post } from "@nestjs/common";
 import { ApiBody, ApiResponse } from "@nestjs/swagger";
-import { Orders, Products } from "generated/prisma";
+import { Orders, Products } from "@prisma/client";
 import { CreateOrderDto } from "src/dto/orders/create.dto";
 import { OrdersService } from "src/services/orders.service";
 

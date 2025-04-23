@@ -1,7 +1,7 @@
 import { ProductsService } from "src/services/products.service";
 import { ProductsController } from "src/controllers/products.controller"
 import { PrismaService } from "src/prisma.service";
-import { Products } from "generated/prisma";
+import { Products } from "@prisma/client";
 import { CreateProductDto } from "src/dto/products/create.dto";
 import { UpdateProductByIdDto } from "src/dto/products/updateById.dto";
 

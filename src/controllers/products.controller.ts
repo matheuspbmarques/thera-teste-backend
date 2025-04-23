@@ -1,6 +1,6 @@
 import { Body, Controller, Delete, Get, HttpCode, HttpStatus, Param, ParseIntPipe, Post, Put } from "@nestjs/common";
 import { ApiBody, ApiOperation, ApiResponse } from "@nestjs/swagger";
-import { Products } from "generated/prisma";
+import { Products } from "@prisma/client";
 import { CreateProductDto } from "src/dto/products/create.dto";
 import { UpdateProductByIdDto } from "src/dto/products/updateById.dto";
 import { ProductsService } from "src/services/products.service";
